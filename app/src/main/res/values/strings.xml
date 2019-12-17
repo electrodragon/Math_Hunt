@@ -3,4 +3,7 @@
     <string name="playBtn_text">Play</string>
     <string name="highScoreBtn_text">High Score</string>
     <string name="exitBtn_text">Quit</string>
+    <string name="equalSign">=</string>
+    <string name="scoreText">Score</string>
+    <string name="LevelText">Level</string>
 </resources>
