@@ -85,6 +85,11 @@ public class GameActivity extends AppCompatActivity {
             Toast.makeText(this, "Try Again !", Toast.LENGTH_SHORT).show();
             currentScore.setText(Player.defaultScore);
         }
+
+        if (Integer.parseInt(currentScore.getText().toString()) % 10 == 0) {
+            currentLevel.setText(String.valueOf(Integer.parseInt(currentScore.getText().toString())/10));
+        }
+
     }
 
 }
