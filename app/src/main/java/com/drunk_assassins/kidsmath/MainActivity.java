@@ -20,5 +20,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(gameIntent);
             }
         });
+
+        findViewById(R.id.exitBtn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
     }
 }
